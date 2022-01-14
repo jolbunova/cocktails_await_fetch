@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#fff;
+    width: 100%;
+    background-color: #000;
+}
+
+
+
+#form{
+    width: auto;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    background-color:#000;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#input{
+    width: 280px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: red;
+    margin-right: 5%;
+    border-width: 4px;
+    background-color: rgb(247, 185, 185);
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: red;
+    margin-right: 5%;
+    border-width: 4px; 
+    background-color: #000;
+    color: red;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+#select{
+    width: 280px;
+    height: 35px;
+    border-radius: 5px; 
+    border-width: 4px;
+    border-color: red;
+    font-size: 20px;
+    background-color: rgb(247, 185, 185);
+    color: rgb(212, 7, 7);
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    red;
+    padding-left: 4%;
+    font-size: 15px;
+ }
+ :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    red;
+    padding-left: 4%;
+    font-size: 15px;
+ }
+ ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    padding-left: 4%; 
+    color:    red;
+    font-size: 15px;
+ }
+ :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    red;
+    font-size: 15px;
+    padding-left: 4%;
+ }
+ 
+
+ h2{
+     color: red;
+     font-style: italic;
+     margin-top: 1%;
+     margin-bottom: 1%;
+     margin-left: 2%;
+ }
+
+ h3{
+    color: red;
+    font-style: italic;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;  
+ }
+
+ 
+ h4{
+    color: red;
+    font-style: italic;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;  
+ }
+
+
+ 
+ p{
+    color: red;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;  
+ }
+
+ li{
+    color: red;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%; 
+ }
+
+ #output{
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+
+ }
+
+ img{
+     width: 500px;
+     height: 350px;
+ }
